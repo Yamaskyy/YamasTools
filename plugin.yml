@@ -1,0 +1,88 @@
+name: YamasTools
+main: me.yamas.tools.Main
+version: 0.0.0.5 Alpha
+author: Yamasky
+description: Narzedzia na twoj serwer!
+permissions:
+  yamastools.*:
+    default: op
+    children:
+      yamastools.cmd.*: true
+      yamastools.socialspy: true
+      yamastools.bypass: true
+  yamastools.cmd.*:
+    default: op
+    children:
+      yamastools.cmd.broadcast: true
+      yamastools.cmd.gamemode: true
+      yamastools.cmd.gamemode.other: true
+      yamastools.cmd.helpop: true
+      yamastools.cmd.helpop.read: true
+      yamastools.cmd.heal: true
+      yamastools.cmd.heal.other: true
+      yamastools.cmd.feed: true
+      yamastools.cmd.feed.other: true
+      yamastools.cmd.fly: true
+      yamastools.cmd.fly.other: true
+      yamastools.cmd.tp: true
+      yamastools.cmd.tp.other: true
+      yamastools.cmd.tphere: true
+      yamastools.cmd.clearinv: true
+      yamastools.cmd.clearinv.other: true
+      yamastools.cmd.enchant: true
+      yamastools.cmd.tppos: true
+      yamastools.cmd.chat: true
+      yamastools.cmd.god: true
+      yamastools.cmd.god.other: true
+      yamastools.cmd.sethome: true
+      yamastools.cmd.home: true
+  yamastools.cmd.broadcast:
+    default: false
+  yamastools.cmd.gamemode:
+    default: false
+  yamastools.cmd.gamemode.other:
+    default: false
+  yamastools.cmd.helpop:
+    default: false
+  yamsetools.cmd.helpop.read:
+    default: false
+  yamastools.cmd.heal:
+    default: false
+  yamastools.cmd.heal.other:
+    default: false
+  yamastools.cmd.feed:
+    default: false
+  yamastools.cmd.feed.other:
+    default: false
+  yamastools.cmd.fly:
+    default: false
+  yamastools.cmd.fly.other:
+    default: false
+  yamastools.cmd.tp:
+    default: false
+  yamastools.cmd.tp.other:
+    default: false
+  yamastools.cmd.tphere:
+    default: false
+  yamastools.cmd.clearinv:
+    default: false
+  yamastools.cmd.clearinv.other:
+    default: false
+  yamastools.cmd.enchant:
+    default: false
+  yamastools.cmd.tppos:
+    default: false
+  yamastools.cmd.chat:
+    default: false
+  yamastools.cmd.god:
+    default: false
+  yamastools.cmd.god.other:
+    default: false
+  yamastools.cmd.sethome:
+    default: false
+  yamastools.cmd.home:
+    default: false
+  yamastools.socialspy:
+    default: false
+  yamastools.bypass:
+    default: false
