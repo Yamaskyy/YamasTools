@@ -3,4 +3,4 @@ mysql:
   port: 3306
   database: yamastools
   user: root
-  password: AlanowyKonradxD1337
+  password: haslo
